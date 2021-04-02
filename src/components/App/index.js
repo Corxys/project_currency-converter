@@ -1,7 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import logo from '../../logo.svg';
+
+import './styles.css';
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +22,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
+  )
+};
 
-export default App;
+export { App };
