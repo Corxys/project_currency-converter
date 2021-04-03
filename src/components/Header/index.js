@@ -4,9 +4,11 @@ import './styles.scss';
 
 const Header = () => {
   return (
-    <>
-    TODO: ici le header de l'application
-    </>
+    <div className="container__header">
+      <div className="header__title">
+        Convertisseur de monnaie
+      </div>
+    </div>
   );
 };
 
