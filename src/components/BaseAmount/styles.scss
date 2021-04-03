@@ -1,0 +1,19 @@
+.container {
+  &__base-amount {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+  }
+}
+
+.base-amount {
+  &__value {
+    font-family: 'Quantico', serif;
+    font-size: 50px;
+    font-weight: 700;
+  }
+}

@@ -11,9 +11,11 @@ const CurrencyConverter = () => {
   return (
     <div className="container__currency-converter">
       <Header />
-      <BaseAmount />
-      <CurrenciesSwitch />
-      <ConvertedAmount />
+      <div className="container__components">
+        <BaseAmount />
+        <CurrenciesSwitch />
+        <ConvertedAmount />
+      </div>
     </div>
   )
 };
