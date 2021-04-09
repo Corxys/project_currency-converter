@@ -6,7 +6,7 @@ import store from './store';
 
 import './index.scss';
 
-import { CurrencyConverter } from './components/CurrencyConverter';
+import CurrencyConverter from './components/CurrencyConverter';
 
 store.dispatch({
   type: 'INIT_DATAS',

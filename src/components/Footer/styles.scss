@@ -1,0 +1,33 @@
+.container__footer {
+  width: 100vw;
+  height: 75px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 50px;
+  font-size: 11.5px;
+}
+
+.footer {
+  &__copyright a {
+    font-weight: 700;
+    transition: 0.3s color ease;
+  }
+  &__copyright a:hover {
+    color: #5389F0;
+  }
+
+  &__socials {
+    margin-left: 20px;
+  }
+}
+
+.socials {
+  &__ico {
+    height: 20px;
+  }
+}
